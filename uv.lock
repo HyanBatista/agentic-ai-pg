@@ -13,6 +13,7 @@ dependencies = [
     { name = "jupyterlab" },
     { name = "langchain" },
     { name = "langchain-community" },
+    { name = "langchain-ollama" },
     { name = "langchain-openai" },
     { name = "langchain-text-splitters" },
     { name = "langgraph" },
@@ -38,6 +39,7 @@ requires-dist = [
     { name = "jupyterlab", specifier = ">=4.4.4" },
     { name = "langchain", specifier = ">=0.3.26" },
     { name = "langchain-community", specifier = ">=0.3.27" },
+    { name = "langchain-ollama", specifier = ">=0.3.4" },
     { name = "langchain-openai", specifier = ">=0.3.27" },
     { name = "langchain-text-splitters", specifier = ">=0.3.8" },
     { name = "langgraph", specifier = ">=0.5.1" },
@@ -1337,6 +1339,19 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/23/20/f5b18a17bfbe3416177e702ab2fd230b7d168abb17be31fb48f43f0bb772/langchain_core-0.3.68.tar.gz", hash = "sha256:312e1932ac9aa2eaf111b70fdc171776fa571d1a86c1f873dcac88a094b19c6f", size = 563041, upload-time = "2025-07-03T17:02:28.704Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f9/da/c89be0a272993bfcb762b2a356b9f55de507784c2755ad63caec25d183bf/langchain_core-0.3.68-py3-none-any.whl", hash = "sha256:5e5c1fbef419590537c91b8c2d86af896fbcbaf0d5ed7fdcdd77f7d8f3467ba0", size = 441405, upload-time = "2025-07-03T17:02:27.115Z" },
+]
+
+[[package]]
+name = "langchain-ollama"
+version = "0.3.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+    { name = "ollama" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/b4/ff/b75aa20bfd17679464ce88e1a2b8103328843bcd669eecbce5bc4d671552/langchain_ollama-0.3.4.tar.gz", hash = "sha256:68d7e0a36eb0ab8130c774283c040152b853e25a6a3aab4bca654c02499f1010", size = 28342, upload-time = "2025-07-08T20:56:39.051Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/db/88/bab55e2ae39447c7fbd54f69b9a11330ef615e400f0dda01f12d51812ab2/langchain_ollama-0.3.4-py3-none-any.whl", hash = "sha256:62929a61cd4204d26ad15f591400c8d8d8042a390e46ea02db117e277ffcb45a", size = 23773, upload-time = "2025-07-08T20:56:37.852Z" },
 ]
 
 [[package]]
