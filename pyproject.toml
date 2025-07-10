@@ -27,6 +27,8 @@ dependencies = [
     "pymupdf>=1.26.3",
     "pypdf>=5.7.0",
     "sentence-transformers>=5.0.0",
+    "streamlit>=1.46.1",
+    "watchdog>=6.0.0",
     "wikipedia>=1.4.0",
 ]
 
